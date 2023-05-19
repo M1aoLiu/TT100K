@@ -1,0 +1,27 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.2",
+    "heartbeatAt": "2023-05-18T13:10:14.706651",
+    "startedAt": "2023-05-18T13:10:05.595337",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--weights",
+        "weights/best.pt",
+        "--epochs",
+        "2",
+        "--batch-size",
+        "2",
+        "--device",
+        "0"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "WIN-1EVN643MF2V",
+    "username": "shanguiyao",
+    "executable": "D:\\anaconda\\envs\\torch\\python.exe"
+}

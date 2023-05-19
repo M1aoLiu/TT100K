@@ -1,0 +1,107 @@
+2023-05-18 21:10:05,600 INFO    MainThread:23476 [wandb_setup.py:_flush():76] Loading settings from C:\Users\shanguiyao\.config\wandb\settings
+2023-05-18 21:10:05,601 INFO    MainThread:23476 [wandb_setup.py:_flush():76] Loading settings from D:\codeprojects\python\TT100K\wandb\settings
+2023-05-18 21:10:05,601 INFO    MainThread:23476 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-18 21:10:05,601 INFO    MainThread:23476 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'train.py'}
+2023-05-18 21:10:05,601 INFO    MainThread:23476 [wandb_setup.py:_flush():76] Applying login settings: {'login_timeout': 30}
+2023-05-18 21:10:05,601 INFO    MainThread:23476 [wandb_init.py:_log_setup():428] Logging user logs to D:\codeprojects\python\TT100K\wandb\run-20230518_211005-1y1agj2p\logs\debug.log
+2023-05-18 21:10:05,602 INFO    MainThread:23476 [wandb_init.py:_log_setup():429] Logging internal logs to D:\codeprojects\python\TT100K\wandb\run-20230518_211005-1y1agj2p\logs\debug-internal.log
+2023-05-18 21:10:05,602 INFO    MainThread:23476 [wandb_init.py:init():462] calling init triggers
+2023-05-18 21:10:05,602 INFO    MainThread:23476 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {'weights': '.\\runs\\train\\exp\\weights\\last.pt', 'cfg': '', 'data': 'data/tt100k.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 60, 'batch_size': 32, 'imgsz': 640, 'rect': False, 'resume': True, 'nosave': False, 'noval': False, 'noautoanchor': False, 'noplots': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '0', 'multi_scale': False, 'single_cls': False, 'optimizer': 'SGD', 'sync_bn': False, 'workers': 0, 'project': 'runs/train', 'name': 'exp', 'exist_ok': False, 'quad': False, 'cos_lr': False, 'label_smoothing': 0.0, 'patience': 100, 'freeze': [0], 'save_period': -1, 'local_rank': -1, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'save_dir': 'runs/train/exp'}
+2023-05-18 21:10:05,602 INFO    MainThread:23476 [wandb_init.py:init():515] starting backend
+2023-05-18 21:10:05,602 INFO    MainThread:23476 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2023-05-18 21:10:05,607 INFO    MainThread:23476 [backend.py:ensure_launched():217] starting backend process...
+2023-05-18 21:10:05,701 INFO    MainThread:23476 [backend.py:ensure_launched():222] started backend process with pid: 19220
+2023-05-18 21:10:05,705 INFO    MainThread:23476 [wandb_init.py:init():525] backend started and connected
+2023-05-18 21:10:05,710 INFO    MainThread:23476 [wandb_init.py:init():596] updated telemetry
+2023-05-18 21:10:05,715 INFO    MainThread:23476 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2023-05-18 21:10:08,602 INFO    MainThread:23476 [wandb_run.py:_on_init():1924] communicating current version
+2023-05-18 21:10:13,618 INFO    MainThread:23476 [wandb_run.py:_on_init():1928] got version response None
+2023-05-18 21:10:13,618 INFO    MainThread:23476 [wandb_init.py:init():662] starting run threads in backend
+2023-05-18 21:10:17,533 INFO    MainThread:23476 [wandb_run.py:_console_start():1898] atexit reg
+2023-05-18 21:10:17,533 INFO    MainThread:23476 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2023-05-18 21:10:17,533 INFO    MainThread:23476 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2023-05-18 21:10:17,533 INFO    MainThread:23476 [wandb_run.py:_redirect():1832] Redirects installed.
+2023-05-18 21:10:17,533 INFO    MainThread:23476 [wandb_init.py:init():688] run started, returning control to user process
+2023-05-18 21:10:20,384 INFO    MainThread:23476 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 255
+2023-05-18 21:10:20,384 INFO    MainThread:23476 [wandb_run.py:_restore():1839] restore
+2023-05-18 21:10:21,123 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 675
+  total_bytes: 675
+}
+
+2023-05-18 21:10:21,652 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 675
+  total_bytes: 675
+}
+
+2023-05-18 21:10:21,761 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 675
+  total_bytes: 12280
+}
+
+2023-05-18 21:10:21,871 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 675
+  total_bytes: 12280
+}
+
+2023-05-18 21:10:21,980 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 675
+  total_bytes: 12280
+}
+
+2023-05-18 21:10:22,082 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 675
+  total_bytes: 12280
+}
+
+2023-05-18 21:10:22,191 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 675
+  total_bytes: 12280
+}
+
+2023-05-18 21:10:22,293 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 8385
+  total_bytes: 12280
+}
+
+2023-05-18 21:10:22,402 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 8411
+  total_bytes: 12280
+}
+
+2023-05-18 21:10:22,511 INFO    MainThread:23476 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 8411
+  total_bytes: 12280
+}
+
