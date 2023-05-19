@@ -33,4 +33,4 @@
 
 
 
-详细说明可见博客：
+详细说明可见博客：[基于YOLOv5的交通标志识别系统-TT100k](https://editor.csdn.net/md/?articleId=130771066)
